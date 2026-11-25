@@ -1,0 +1,5 @@
+.campo-texto { display:flex; flex-direction:column; gap:7px; margin-bottom:16px; }
+.campo-texto label { font-size:.86rem; font-weight:700; color:#30465f; }
+.campo-texto input { width:100%; padding:13px 14px; border:1px solid var(--cor-borda); border-radius:10px; background:#fbfcfe; color:var(--cor-texto); transition:.2s; }
+.campo-texto input::placeholder { color:#9aa8b8; }
+.campo-texto input:focus { outline:none; border-color:#3779a8; box-shadow:0 0 0 3px rgba(55,121,168,.12); background:#fff; }
