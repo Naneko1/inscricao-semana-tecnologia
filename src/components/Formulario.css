@@ -1,0 +1,11 @@
+.formulario,.lista { background:var(--cor-cartao); border:1px solid #e3eaf2; border-radius:var(--raio); box-shadow:var(--sombra); padding:26px; }
+.formulario__topo { display:flex; gap:13px; align-items:center; margin-bottom:24px; }
+.numero-etapa { display:grid; place-items:center; width:42px; height:42px; flex:none; border-radius:12px; color:#b94e0d; background:#fff0e5; font-weight:800; }
+.formulario h2 { margin:0; font:700 1.2rem 'Manrope',sans-serif; }
+.formulario__topo p { margin:4px 0 0; color:var(--cor-texto-suave); font-size:.86rem; }
+.formulario select { width:100%; padding:13px 14px; border:1px solid var(--cor-borda); border-radius:10px; background:#fbfcfe; color:var(--cor-texto); }
+.formulario__erro { color:var(--cor-erro); background:#fff0ef; padding:10px 12px; border-radius:8px; font-size:.86rem; }
+.formulario__botao { width:100%; display:flex; justify-content:space-between; align-items:center; border:0; border-radius:10px; padding:15px 17px; background:var(--cor-destaque); color:white; font-weight:800; cursor:pointer; transition:.2s; }
+.formulario__botao:hover { background:#df5f0d; transform:translateY(-1px); }
+.formulario__botao span { font-size:1.25rem; }
+.formulario__nota { margin:14px 0 0; color:#8795a6; font-size:.74rem; text-align:center; line-height:1.5; }
