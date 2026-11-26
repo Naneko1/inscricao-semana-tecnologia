@@ -43,3 +43,5 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+# Re-publicacao de verificacao em 2026-11-25.
