@@ -45,3 +45,5 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
 # Re-publicacao de verificacao em 2026-11-25.
+
+# Disparo de nova publicacao apos selecionar GitHub Actions nas configuracoes do Pages.
